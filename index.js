@@ -2,8 +2,7 @@
 
 document.addEventListener("DOMContentLoaded", function() {
   console.log("The DOM has loaded");
-  const text = document.getElementById("text");
-  text.textContent('This is really cool!')
+  document.getElementById('text').textContent = 'This text is different!';
 });
  
 
