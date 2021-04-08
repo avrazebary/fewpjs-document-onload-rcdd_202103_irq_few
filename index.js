@@ -3,7 +3,7 @@
 document.addEventListener("DOMContentLoaded", function() {
   console.log("The DOM has loaded");
   const text = document.getElementById("text");
-text.innerHTML.replace('This is really cool!')
+  text.textContent('This is really cool!')
 });
  
 
